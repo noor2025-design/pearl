@@ -2,26 +2,144 @@
 @tailwind components;
 @tailwind utilities;
 
+/* ─── Design Tokens ─── */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --color-cream: #ede0d4;
+  --color-cream-dark: #dfd0c2;
+  --color-periwinkle: #8ea7e8;
+  --color-periwinkle-light: #9fadf3;
+  --color-periwinkle-dark: #5a7acf;
+  --color-text-primary: #1a1a1a;
+  --color-text-secondary: #5c5c5c;
+
+  --font-display: 'gunter', 'Cinzel', 'Georgia', serif;
+  --font-ui: 'lucida-sans', sans-serif;
+
+  --text-hero: clamp(2rem, 4vw, 3.75rem);
+  --text-display: clamp(2rem, 4vw, 4rem);
+  --text-title: 1.5rem;
+  --text-body: 1rem;
+  --text-small: 0.875rem;
+
+  --radius-card: 0.9375rem;
+  --shadow-card: 0 2px 20px 0 rgba(26, 26, 26, 0.06);
+  --shadow-card-hover: 0 8px 32px 0 rgba(26, 26, 26, 0.12);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/* ─── Base ─── */
+*, *::before, *::after { box-sizing: border-box; }
+
+html {
+  font-size: 112.5%;
+  font-family: var(--font-ui);
+  background-color: var(--color-cream);
+  color: var(--color-text-primary);
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--color-cream);
+  min-height: 100vh;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-display);
+  line-height: 1.15;
+}
+
+.font-display { font-family: var(--font-display); }
+.font-ui { font-family: var(--font-ui); }
+
+.text-hero { font-size: var(--text-hero); line-height: 1.1; }
+.text-display-size { font-size: var(--text-display); }
+
+/* ─── Card hover ─── */
+.card-hover {
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+.card-hover:hover {
+  box-shadow: var(--shadow-card-hover);
+  transform: translateY(-2px);
+}
+
+/* ─── Focus ring ─── */
+*:focus-visible {
+  outline: 2px solid var(--color-periwinkle);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* ─── Scrollbar ─── */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: var(--color-cream); }
+::-webkit-scrollbar-thumb { background: var(--color-periwinkle); border-radius: 3px; }
+
+/* ─── Horizontal filter scroll on mobile ─── */
+.filter-scroll {
+  display: flex;
+  gap: 0.5rem;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  padding-bottom: 2px;
+}
+.filter-scroll::-webkit-scrollbar { display: none; }
+
+/* ─── Hero section ─── */
+.hero-section {
+  background-color: var(--color-periwinkle);
+}
+
+/* ─── Navbar blur ─── */
+.navbar-blur {
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  background-color: rgba(237, 224, 212, 0.97);
+}
+
+/* ─── Store placeholder (no image) ─── */
+.store-placeholder {
+  background: linear-gradient(135deg, var(--color-periwinkle) 0%, var(--color-periwinkle-dark) 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-family: var(--font-display);
+  font-size: 2.5rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+}
+
+/* ─── Map embed ─── */
+.map-embed iframe {
+  width: 100%;
+  border: none;
+  border-radius: var(--radius-card);
+}
+
+/* ─── Category card image overlays ─── */
+.category-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: var(--radius-card);
+}
+.category-card::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.45) 100%);
 }
 
 @layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+  .text-balance { text-wrap: balance; }
+}
+
+/* ─── Marquee banner ─── */
+@keyframes marquee {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-33.333%); }
+}
+.animate-marquee {
+  animation: marquee var(--marquee-speed, 30s) linear infinite;
 }

@@ -9,8 +9,24 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        cream: "#ede0d4",
+        "cream-dark": "#dfd0c2",
+        periwinkle: "#8ea7e8",
+        "periwinkle-light": "#9fadf3",
+        "periwinkle-dark": "#5a7acf",
+        "text-primary": "#1a1a1a",
+        "text-secondary": "#5c5c5c",
+      },
+      fontFamily: {
+        display: ["gunter", "Cinzel", "Georgia", "serif"],
+        ui: ["lucida-sans", "var(--font-ui)", "sans-serif"],
+      },
+      borderRadius: {
+        card: "1rem",
+      },
+      boxShadow: {
+        card: "0 2px 20px 0 rgba(26, 26, 26, 0.06)",
+        "card-hover": "0 8px 32px 0 rgba(26, 26, 26, 0.12)",
       },
     },
   },

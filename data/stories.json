@@ -1,0 +1,31 @@
+[
+  {
+    "id": "merrachi-founder",
+    "slug": "merrachi-founder",
+    "sourcedFromWebsite": true,
+    "founderName": "Nada Merrachi",
+    "brandName": "Merrachi",
+    "brandSlug": "merrachi",
+    "title": "Nada and the Vision Behind Merrachi",
+    "excerpt": "From a living room in the Netherlands to modest fashion destinations around the world \u2014 the story of how Merrachi was built on heritage, craft, and a deep belief that Muslim women deserve beautiful clothes.",
+    "pullQuote": "A brand rooted in Moroccan heritage and European craft, built for Muslim women around the world.",
+    "imageUrl": "/merrachi-nada-story.jpg",
+    "cardImageUrl": "/merrachi-nada-founder.jpg",
+    "featured": true,
+    "publishedAt": "2024-03-05",
+    "interview": [
+      {
+        "question": "The Brand",
+        "answer": "Merrachi was founded by Nada Merrachi, a Dutch-Moroccan designer who grew up between two worlds \u2014 the clean lines of European fashion and the richness of Moroccan textile tradition. Drawing on both, she began creating modest pieces that felt contemporary and culturally rooted at the same time. What started as a small creative endeavor became one of the most recognized names in modest fashion."
+      },
+      {
+        "question": "The Craft",
+        "answer": "Merrachi is known for its embroidery, carefully considered silhouettes, and an aesthetic that feels both elevated and deeply personal. Each collection reflects Nada's commitment to designing pieces that honor tradition without being bound by it \u2014 clothes made for celebrations, ceremonies, and the everyday moments that matter."
+      },
+      {
+        "question": "The Reach",
+        "answer": "Today, Merrachi ships globally and has found its way into the wardrobes of women across the United States, Europe, and beyond. The brand has built a loyal community drawn to its quality and its point of view \u2014 modest fashion that does not ask you to compromise on beauty or identity."
+      }
+    ]
+  }
+]

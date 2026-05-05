@@ -1,0 +1,813 @@
+[
+  {
+    "id": "vela",
+    "name": "Vela",
+    "slug": "vela",
+    "website": "https://velascarves.com",
+    "description": "VELA was born in 2009 with the daring idea to revolutionize the way the world looked at hijab and modest style. Luxury silk and chiffon hijabs ethically sourced for every occasion.",
+    "shortDescription": "Luxury silk and chiffon hijabs, ethically made.",
+    "categories": [
+      "Hijabs & Scarves",
+      "Accessories",
+      "Abayas",
+      "Occasion Wear"
+    ],
+    "locationType": "online",
+    "shipsToUS": true,
+    "priceRange": "$$$",
+    "logoUrl": "",
+    "featuredImageUrl": "/veiled.jpg",
+    "featured": true,
+    "featuredOrder": 1,
+    "verified": true,
+    "tags": [
+      "luxury",
+      "silk",
+      "occasion wear",
+      "Eid",
+      "chiffon"
+    ],
+    "social": {
+      "instagram": "https://www.instagram.com/velascarves/",
+      "tiktok": "https://www.tiktok.com/@velascarves"
+    },
+    "address": null,
+    "neighborhood": "U.S. Based \u00b7 Online",
+    "hours": null,
+    "phone": null
+  },
+  {
+    "id": "the-veiled-collection",
+    "name": "Veiled",
+    "slug": "the-veiled-collection",
+    "website": "https://veiled.com",
+    "description": "Veiled is a modern modest fashion brand dedicated to timeless, sustainable designs. A premier destination for flowy abayas to elegant modest dresses \u2014 trusted by thousands of Muslim women across the US.",
+    "shortDescription": "Modern modest fashion \u2014 timeless, sustainable designs.",
+    "categories": [
+      "Abayas",
+      "Modest Dresses",
+      "Occasion Wear"
+    ],
+    "locationType": "online",
+    "shipsToUS": true,
+    "priceRange": "$$",
+    "logoUrl": "",
+    "featuredImageUrl": "/vela.jpg",
+    "featured": true,
+    "featuredOrder": 2,
+    "verified": true,
+    "tags": [
+      "abayas",
+      "modest dresses",
+      "occasion wear",
+      "Eid",
+      "everyday"
+    ],
+    "social": {
+      "instagram": "https://www.instagram.com/veiledcollection",
+      "tiktok": "https://www.tiktok.com/@veiledcollection"
+    },
+    "address": "1132 US-46 W, Clifton, NJ",
+    "neighborhood": "U.S. Based \u00b7 Clifton, NJ",
+    "hours": "M\u2013TH 11AM\u20137PM, Fri\u2013Sat 11AM\u20138PM, Sun 11AM\u20136PM",
+    "phone": "(973) 636-4999"
+  },
+  {
+    "id": "merrachi",
+    "name": "Merrachi",
+    "slug": "merrachi",
+    "website": "https://merrachi.com",
+    "description": "Dutch-Moroccan Designer Nada harnesses her self-taught skills to create contemporary modest fashion designs.",
+    "shortDescription": "Dutch-Moroccan contemporary modest fashion by designer Nada.",
+    "categories": [
+      "Abayas",
+      "Traditional Wear",
+      "Occasion Wear"
+    ],
+    "locationType": "international",
+    "shipsToUS": true,
+    "priceRange": "$$$",
+    "logoUrl": "",
+    "featuredImageUrl": "/merrachi.jpg",
+    "imagePosition": "center",
+    "featured": true,
+    "featuredOrder": 3,
+    "verified": true,
+    "tags": [
+      "abayas",
+      "modest dresses",
+      "contemporary",
+      "Eid",
+      "Europe"
+    ],
+    "social": {
+      "instagram": "https://instagram.com/merrachi",
+      "tiktok": "https://www.tiktok.com/@merrachi"
+    },
+    "address": null,
+    "neighborhood": "Europe Based \u00b7 Amsterdam \u00b7 Antwerp",
+    "hours": null,
+    "phone": null
+  },
+  {
+    "id": "zena",
+    "name": "Zena",
+    "slug": "zena",
+    "website": "https://zenacompany.com",
+    "description": "Muslim-owned boutique offering a range of modest eveningwear and business-casual clothing.",
+    "shortDescription": "Muslim-owned boutique for modest eveningwear and business-casual.",
+    "categories": [
+      "Occasion Wear",
+      "Modest Dresses",
+      "Abayas"
+    ],
+    "locationType": "nj",
+    "shipsToUS": false,
+    "priceRange": "$$$",
+    "logoUrl": "",
+    "featuredImageUrl": "/zena.jpg",
+    "featured": true,
+    "featuredOrder": 4,
+    "verified": true,
+    "tags": [
+      "local",
+      "New Jersey",
+      "eveningwear",
+      "business casual",
+      "Muslim-owned"
+    ],
+    "social": {
+      "instagram": "https://www.instagram.com/thezenacompany",
+      "tiktok": "https://www.tiktok.com/@thezenacompany"
+    },
+    "address": "1090 Main St, Paterson, NJ 07503",
+    "neighborhood": "U.S. Based \u00b7 Paterson, NJ",
+    "hours": "Mon\u2013Sun: 11AM\u20138PM",
+    "phone": "(973) 341-6304",
+    "foundersPickNote": "I visited Zena ahead of Eid after finding it on TikTok. My mom and I drove from New York City to Paterson and were immediately impressed by the selection, especially the modern abayas and occasion pieces. The store felt elevated and easy to shop. I would definitely go back."
+  },
+  {
+    "id": "haute-hijab",
+    "name": "Haute Hijab",
+    "slug": "haute-hijab",
+    "website": "https://www.hautehijab.com",
+    "description": "The go-to destination for modern Muslim women seeking fashionable, high-quality hijabs and modest wear that fits seamlessly into contemporary life.",
+    "shortDescription": "Modern hijabs and modest wear for the contemporary Muslim woman.",
+    "categories": [
+      "Hijabs & Scarves",
+      "Modest Dresses",
+      "Accessories"
+    ],
+    "locationType": "online",
+    "shipsToUS": true,
+    "priceRange": "$$$",
+    "logoUrl": "",
+    "featuredImageUrl": "/haute-hijab.png",
+    "featured": false,
+    "featuredOrder": 5,
+    "verified": true,
+    "tags": [
+      "hijabs",
+      "modern",
+      "everyday",
+      "Eid",
+      "US-based"
+    ],
+    "social": {
+      "instagram": "https://www.instagram.com/hautehijab",
+      "tiktok": "https://www.tiktok.com/@therealhautehijab"
+    },
+    "address": null,
+    "neighborhood": "U.S. Based \u00b7 Online",
+    "hours": null,
+    "phone": null
+  },
+  {
+    "id": "menatique",
+    "name": "Menatique",
+    "slug": "menatique",
+    "website": "https://menatique.com",
+    "description": "NYC boutique specializing in Moroccan caftans, takshitas, djellabas, abayas, and stunning Eid and wedding pieces. Two locations in Astoria and Brooklyn.",
+    "shortDescription": "Moroccan caftans, abayas, and Eid pieces \u2014 NYC boutique.",
+    "categories": [
+      "Traditional Wear",
+      "Occasion Wear",
+      "Abayas"
+    ],
+    "locationType": "nyc",
+    "shipsToUS": true,
+    "priceRange": "$$",
+    "logoUrl": "",
+    "featuredImageUrl": "/menatique.png",
+    "featured": false,
+    "featuredOrder": 7,
+    "verified": true,
+    "tags": [
+      "Moroccan",
+      "caftans",
+      "abayas",
+      "NYC",
+      "Eid",
+      "wedding"
+    ],
+    "social": {
+      "instagram": "https://www.instagram.com/menatique_ny/",
+      "tiktok": ""
+    },
+    "address": "25-02 Steinway St, Astoria, NY 11103",
+    "neighborhood": "U.S. Based \u00b7 Astoria, NY \u00b7 Brooklyn, NY",
+    "hours": "Mon\u2013Sun: 12PM\u201310PM",
+    "phone": "(646) 384-3095"
+  },
+  {
+    "id": "urban-modesty",
+    "name": "Urban Modesty",
+    "slug": "urban-modesty",
+    "website": "https://urbanmodesty.com",
+    "description": "Modest clothing boutique in Brooklyn offering a curated selection of abayas, dresses, sets, and hijabs for the modern Muslim woman.",
+    "shortDescription": "Brooklyn boutique with abayas, dresses, sets, and hijabs.",
+    "categories": [
+      "Abayas",
+      "Modest Dresses",
+      "Hijabs & Scarves"
+    ],
+    "locationType": "nyc",
+    "shipsToUS": true,
+    "priceRange": "$$",
+    "logoUrl": "",
+    "featuredImageUrl": "/urban-modesty.png",
+    "featured": false,
+    "featuredOrder": 8,
+    "verified": true,
+    "tags": [
+      "abayas",
+      "dresses",
+      "hijabs",
+      "NYC",
+      "Brooklyn"
+    ],
+    "social": {
+      "instagram": "https://www.instagram.com/urbanmodesty/",
+      "tiktok": ""
+    },
+    "address": "7712 5th Ave, Brooklyn, NY 11209",
+    "neighborhood": "U.S. Based \u00b7 Brooklyn, NY",
+    "hours": "M\u2013TH 11:30AM\u20138PM, Fri\u2013Sun 11:30AM\u20139PM",
+    "phone": "(718) 208-7937"
+  },
+  {
+    "id": "abayati-ny",
+    "name": "Abayati NY",
+    "slug": "abayati-ny",
+    "website": null,
+    "description": "Bronx-based boutique specializing in Khaleeji-style abayas. Follow on Instagram or TikTok for the latest arrivals and to place orders.",
+    "shortDescription": "Khaleeji-style abayas \u2014 Bronx, NY boutique.",
+    "categories": [
+      "Abayas",
+      "Traditional Wear"
+    ],
+    "locationType": "nyc",
+    "shipsToUS": false,
+    "priceRange": "$$",
+    "logoUrl": "",
+    "featuredImageUrl": "/abayati-ny.jpg",
+    "featured": false,
+    "featuredOrder": 9,
+    "verified": true,
+    "tags": [
+      "abayas",
+      "Khaleeji",
+      "NYC",
+      "Bronx",
+      "local"
+    ],
+    "social": {
+      "instagram": "https://www.instagram.com/abayati_ny/",
+      "tiktok": "https://www.tiktok.com/@abayati_ny"
+    },
+    "address": "847 Morris Park Ave, Bronx, NY 10462",
+    "neighborhood": "U.S. Based \u00b7 Bronx, NY",
+    "hours": "Mon\u2013Sun: 12PM\u20137PM",
+    "phone": "(914) 316-2716"
+  },
+  {
+    "id": "lameera-moda",
+    "name": "LaMeera Moda",
+    "slug": "lameera-moda",
+    "website": "https://lameeramoda.com",
+    "description": "Online modest fashion destination offering a beautiful selection of abayas, kaftans, maxi dresses, and occasion pieces for the modern Muslim woman.",
+    "shortDescription": "Abayas, kaftans, maxi dresses, and modest occasion pieces.",
+    "categories": [
+      "Abayas",
+      "Occasion Wear",
+      "Modest Dresses"
+    ],
+    "locationType": "online",
+    "shipsToUS": true,
+    "priceRange": "$$",
+    "logoUrl": "",
+    "featuredImageUrl": "/lameera-moda.png",
+    "featured": false,
+    "featuredOrder": 10,
+    "verified": true,
+    "tags": [
+      "abayas",
+      "kaftans",
+      "occasion wear",
+      "maxi dresses",
+      "online"
+    ],
+    "social": {
+      "instagram": "https://www.instagram.com/lameeramoda/",
+      "tiktok": ""
+    },
+    "address": null,
+    "neighborhood": "U.S. Based \u00b7 Online",
+    "hours": null,
+    "phone": null
+  },
+  {
+    "id": "mariams-collection",
+    "name": "Mariam's Collection",
+    "slug": "mariams-collection",
+    "website": "https://mariam-col.com",
+    "description": "Online modestwear shop offering elegant abaya sets and occasion pieces with worldwide shipping.",
+    "shortDescription": "Online modest shop with abaya sets and occasion pieces.",
+    "categories": [
+      "Abayas",
+      "Occasion Wear"
+    ],
+    "locationType": "international",
+    "shipsToUS": true,
+    "priceRange": "$$",
+    "logoUrl": "",
+    "featuredImageUrl": "/mariams-collection.png",
+    "featured": false,
+    "featuredOrder": 11,
+    "verified": true,
+    "tags": [
+      "abayas",
+      "occasion wear",
+      "international",
+      "online"
+    ],
+    "social": {
+      "instagram": "https://www.instagram.com/mariams_collection/",
+      "tiktok": "https://www.tiktok.com/@mariam_collections"
+    },
+    "address": null,
+    "neighborhood": null,
+    "hours": null,
+    "phone": null
+  },
+  {
+    "id": "niswa-fashion",
+    "name": "Niswa Fashion",
+    "slug": "niswa-fashion",
+    "website": "https://www.niswafashion.com",
+    "description": "US-based modest fashion brand offering a curated collection of hijabs, modest dresses, and abayas for the everyday Muslim woman. Known for their jersey hijabs and comfortable basics.",
+    "shortDescription": "Accessible modest clothing \u2014 hijabs, dresses, and abayas.",
+    "categories": [
+      "Hijabs & Scarves",
+      "Modest Dresses",
+      "Abayas"
+    ],
+    "locationType": "online",
+    "shipsToUS": true,
+    "priceRange": "$",
+    "logoUrl": "",
+    "featuredImageUrl": "/niswa-fashion.png",
+    "featured": false,
+    "featuredOrder": 6,
+    "verified": true,
+    "tags": [
+      "hijabs",
+      "everyday",
+      "jersey",
+      "US-based",
+      "accessible"
+    ],
+    "social": {
+      "instagram": "https://www.instagram.com/niswafashion/",
+      "tiktok": "https://www.tiktok.com/@niswafashion"
+    },
+    "address": null,
+    "neighborhood": "U.S. Based \u00b7 Online",
+    "hours": null,
+    "phone": null
+  },
+  {
+    "id": "abaya-buth",
+    "name": "Abaya Buth",
+    "slug": "abaya-buth",
+    "website": "https://abayabuth.com",
+    "description": "UK-based abaya boutique offering a curated selection of open abayas, closed abayas, and modest sets with international shipping.",
+    "shortDescription": "UK abaya boutique with curated modest sets.",
+    "categories": [
+      "Abayas",
+      "Traditional Wear",
+      "Occasion Wear"
+    ],
+    "locationType": "international",
+    "shipsToUS": true,
+    "priceRange": "$$",
+    "logoUrl": "",
+    "featuredImageUrl": "/abaya-buth.png",
+    "featured": false,
+    "featuredOrder": 15,
+    "verified": true,
+    "tags": [
+      "abayas",
+      "UK",
+      "international",
+      "traditional"
+    ],
+    "social": {
+      "instagram": "https://www.instagram.com/abayabuth",
+      "tiktok": ""
+    },
+    "address": null,
+    "neighborhood": "U.K. Based",
+    "hours": null,
+    "phone": null
+  },
+  {
+    "id": "aaliya-collections",
+    "name": "Aaliya Collections",
+    "slug": "aaliya-collections",
+    "website": "https://www.aaliyacollections.com",
+    "description": "UK-based modest fashion brand offering beautifully crafted abayas and elegant occasionwear with worldwide shipping.",
+    "shortDescription": "UK abayas and occasionwear with worldwide shipping.",
+    "categories": [
+      "Abayas",
+      "Occasion Wear"
+    ],
+    "locationType": "international",
+    "shipsToUS": true,
+    "priceRange": "$$",
+    "logoUrl": "",
+    "featuredImageUrl": "/aaliya-collections.png",
+    "featured": false,
+    "featuredOrder": 13,
+    "verified": true,
+    "tags": [
+      "abayas",
+      "occasion wear",
+      "UK",
+      "international"
+    ],
+    "social": {
+      "instagram": "https://www.instagram.com/aaliyacollections/",
+      "tiktok": "https://www.tiktok.com/@aaliyacollections"
+    },
+    "address": null,
+    "neighborhood": "U.K. Based",
+    "hours": null,
+    "phone": null
+  },
+  {
+    "id": "hayah-al-muslimah",
+    "name": "Hayah Al-Muslimah",
+    "slug": "hayah-al-muslimah",
+    "website": "https://www.hayahalmuslimah.com/en-us",
+    "description": "Luxury UAE-crafted abayas designed with elegance and modesty in mind, available online with international shipping.",
+    "shortDescription": "Luxury UAE-crafted abayas with international shipping.",
+    "categories": [
+      "Abayas",
+      "Occasion Wear"
+    ],
+    "locationType": "international",
+    "shipsToUS": true,
+    "priceRange": "$$",
+    "logoUrl": "",
+    "featuredImageUrl": "/hayah-al-muslimah.png",
+    "featured": false,
+    "featuredOrder": 14,
+    "verified": true,
+    "tags": [
+      "abayas",
+      "luxury",
+      "UAE",
+      "international"
+    ],
+    "social": {
+      "instagram": "https://www.instagram.com/hayahalmuslimah/",
+      "tiktok": "https://www.tiktok.com/@hayahalmuslimah"
+    },
+    "address": null,
+    "neighborhood": "U.A.E. Based",
+    "hours": null,
+    "phone": null
+  },
+  {
+    "id": "zadina-abayas",
+    "name": "Zadina Abayas",
+    "slug": "zadina-abayas",
+    "website": "https://www.zadinaabayas.com",
+    "description": "UK-based abaya brand offering a stunning range of modest abayas with international shipping.",
+    "shortDescription": "UK-based abaya brand with international shipping.",
+    "categories": [
+      "Abayas",
+      "Traditional Wear"
+    ],
+    "locationType": "international",
+    "shipsToUS": true,
+    "priceRange": "$$",
+    "logoUrl": "",
+    "featuredImageUrl": "/zadina-abayas.png",
+    "featured": false,
+    "featuredOrder": 12,
+    "verified": true,
+    "tags": [
+      "abayas",
+      "UK",
+      "international"
+    ],
+    "social": {
+      "instagram": "https://www.instagram.com/zadinaabayas/",
+      "tiktok": "https://www.tiktok.com/@zadinaabayaslondon"
+    },
+    "address": null,
+    "neighborhood": "U.K. Based",
+    "hours": null,
+    "phone": null
+  },
+  {
+    "id": "by-hasanat",
+    "name": "By Hasanat",
+    "slug": "by-hasanat",
+    "website": "https://www.byhasanat.co.uk",
+    "description": "UK-based luxury modestwear brand offering elegantly designed abayas and modest pieces with international shipping.",
+    "shortDescription": "UK luxury modestwear with international shipping.",
+    "categories": [
+      "Abayas",
+      "Modest Dresses",
+      "Occasion Wear"
+    ],
+    "locationType": "international",
+    "shipsToUS": true,
+    "priceRange": "$$",
+    "logoUrl": "",
+    "featuredImageUrl": "/by-hasanat.png",
+    "featured": false,
+    "featuredOrder": 16,
+    "verified": true,
+    "tags": [
+      "luxury",
+      "abayas",
+      "UK",
+      "international"
+    ],
+    "social": {
+      "instagram": "https://www.instagram.com/byhasanat/",
+      "tiktok": "https://www.tiktok.com/@byhasanat"
+    },
+    "address": null,
+    "neighborhood": "U.K. Based",
+    "hours": null,
+    "phone": null
+  },
+  {
+    "id": "kabayare",
+    "name": "Kabayare",
+    "slug": "kabayare",
+    "website": "https://kabayare.com",
+    "description": "US-based online modest fashion brand focused on abayas and elegant dresses, with worldwide shipping.",
+    "shortDescription": "US-based abaya and dress brand with worldwide shipping.",
+    "categories": [
+      "Abayas",
+      "Modest Dresses"
+    ],
+    "locationType": "online",
+    "shipsToUS": true,
+    "priceRange": "$$",
+    "logoUrl": "",
+    "featuredImageUrl": "/kabayare.png",
+    "featured": false,
+    "featuredOrder": 17,
+    "verified": true,
+    "tags": [
+      "abayas",
+      "dresses",
+      "US-based",
+      "online"
+    ],
+    "social": {
+      "instagram": "https://www.instagram.com/kabayare/",
+      "tiktok": "https://www.tiktok.com/@kabayarefashion"
+    },
+    "address": null,
+    "neighborhood": "U.S. Based \u00b7 Online",
+    "hours": null,
+    "phone": null
+  },
+  {
+    "id": "aab-collection",
+    "name": "Aab Collection",
+    "slug": "aab-collection",
+    "website": "https://aabcollection.com",
+    "description": "British luxury modest fashion brand offering sophisticated abayas, modest dresses, and hijabs in premium fabrics. Aab is celebrated for its clean lines and understated elegance.",
+    "shortDescription": "British luxury modest fashion \u2014 clean lines and understated elegance.",
+    "categories": [
+      "Abayas",
+      "Modest Dresses",
+      "Hijabs & Scarves",
+      "Occasion Wear"
+    ],
+    "locationType": "international",
+    "shipsToUS": true,
+    "priceRange": "$$",
+    "logoUrl": "",
+    "featuredImageUrl": "/aab-collection.png",
+    "featured": false,
+    "featuredOrder": 21,
+    "verified": true,
+    "tags": [
+      "UK",
+      "luxury",
+      "abayas",
+      "hijabs",
+      "elegant"
+    ],
+    "social": {
+      "instagram": "https://www.instagram.com/aabcollection/",
+      "tiktok": ""
+    },
+    "address": null,
+    "neighborhood": "U.K. Based",
+    "hours": null,
+    "phone": null
+  },
+  {
+    "id": "modesque",
+    "name": "Modesque",
+    "slug": "modesque",
+    "website": "https://modesque.co.uk",
+    "description": "MODESQUE was created to provide a high-end affordable solution for a capsule wardrobe or occasion purchase.",
+    "shortDescription": "High-end affordable modest fashion for capsule wardrobes and occasions.",
+    "categories": [
+      "Abayas",
+      "Traditional Wear",
+      "Occasion Wear"
+    ],
+    "locationType": "international",
+    "shipsToUS": true,
+    "priceRange": "$$",
+    "logoUrl": "",
+    "featuredImageUrl": "/modesque.jpg",
+    "featured": false,
+    "featuredOrder": 99,
+    "verified": true,
+    "tags": [
+      "luxury",
+      "British",
+      "occasion wear",
+      "Eid",
+      "abayas"
+    ],
+    "social": {
+      "instagram": "https://www.instagram.com/modesque_/",
+      "tiktok": ""
+    },
+    "address": null,
+    "neighborhood": "U.K. Based",
+    "hours": null,
+    "phone": null
+  },
+  {
+    "id": "anatomi",
+    "name": "Anatomi",
+    "slug": "anatomi",
+    "website": "https://www.anatomiofficial.com",
+    "description": "Anatomi is a modest fashion brand offering thoughtfully designed pieces for the modern Muslim woman, based in the UAE.",
+    "shortDescription": "Thoughtfully designed modest fashion for the modern woman.",
+    "categories": [
+      "Modest Dresses",
+      "Abayas"
+    ],
+    "locationType": "international",
+    "shipsToUS": true,
+    "priceRange": "$$$",
+    "logoUrl": "",
+    "featuredImageUrl": "/anatomi.png",
+    "featured": false,
+    "featuredOrder": 20,
+    "verified": true,
+    "tags": [
+      "modest fashion",
+      "contemporary",
+      "UAE"
+    ],
+    "social": {
+      "instagram": "https://www.instagram.com/anatomi",
+      "tiktok": ""
+    },
+    "address": null,
+    "neighborhood": "U.A.E. Based",
+    "hours": null,
+    "phone": null
+  },
+  {
+    "id": "fajr-noor",
+    "name": "Fajr Noor",
+    "slug": "fajr-noor",
+    "website": "https://fajrnoor.com/",
+    "description": "Australian modest fashion brand offering a curated collection of abayas, modest dresses, and occasion wear. Fajr Noor is known for its elegant designs and quality fabrics, shipping internationally to modest fashion lovers around the world.",
+    "shortDescription": "Australian modest fashion brand offering abayas and occasion wear with international shipping.",
+    "categories": [
+      "Abayas",
+      "Modest Dresses",
+      "Occasion Wear"
+    ],
+    "locationType": "international",
+    "shipsToUS": false,
+    "priceRange": "$$",
+    "logoUrl": "",
+    "featuredImageUrl": "/fajr-noor-sumayya-sky-blue.jpg",
+    "featured": false,
+    "featuredOrder": 100,
+    "verified": true,
+    "tags": [
+      "Australia",
+      "international shipping",
+      "abayas",
+      "modest fashion"
+    ],
+    "social": {
+      "instagram": "https://www.instagram.com/fajrnoor.au/",
+      "tiktok": "https://www.tiktok.com/@fajrnoor.au"
+    },
+    "address": null,
+    "neighborhood": null,
+    "hours": null,
+    "phone": null
+  },
+  {
+    "id": "shimmi",
+    "name": "Shimmi",
+    "slug": "shimmi",
+    "website": "https://shimmidresses.com/",
+    "description": "Shimmi is a UK-based modest fashion brand offering elegant dresses and occasion wear, with international shipping available worldwide.",
+    "shortDescription": "UK-based modest dresses and occasion wear with international shipping.",
+    "categories": [
+      "Modest Dresses",
+      "Occasion Wear"
+    ],
+    "locationType": "international",
+    "shipsToUS": true,
+    "priceRange": "$$",
+    "logoUrl": "",
+    "featuredImageUrl": "/shimmi-featured.jpg",
+    "featured": false,
+    "featuredOrder": 101,
+    "verified": true,
+    "tags": [
+      "UK",
+      "international shipping",
+      "modest dresses",
+      "occasion wear"
+    ],
+    "social": {
+      "instagram": "https://www.instagram.com/shimmidresses/",
+      "tiktok": ""
+    },
+    "address": null,
+    "neighborhood": "UK Based",
+    "hours": null,
+    "phone": null
+  },
+  {
+    "id": "little-lala-boutique",
+    "name": "Little Lala Boutique",
+    "slug": "little-lala-boutique",
+    "website": "https://littlelalaboutique.com/",
+    "description": "Little Lala Boutique is an Australian modest fashion brand offering elegant occasion wear and modest dresses, with international shipping available worldwide.",
+    "shortDescription": "Australian modest occasion wear with international shipping.",
+    "categories": [
+      "Modest Dresses",
+      "Occasion Wear"
+    ],
+    "locationType": "international",
+    "shipsToUS": true,
+    "priceRange": "$$",
+    "logoUrl": "",
+    "featuredImageUrl": "/little-lala-boutique.jpg",
+    "featured": false,
+    "featuredOrder": 102,
+    "verified": true,
+    "tags": [
+      "Australia",
+      "international shipping",
+      "modest dresses",
+      "occasion wear"
+    ],
+    "social": {
+      "instagram": "https://www.instagram.com/littlelalaboutique",
+      "tiktok": ""
+    },
+    "address": null,
+    "neighborhood": "Australia Based",
+    "hours": null,
+    "phone": null
+  }
+]
