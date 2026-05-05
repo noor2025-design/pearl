@@ -210,7 +210,7 @@ export default function CommunityPage() {
   }
 
   const inputClass =
-    'w-full px-4 py-3 rounded-xl bg-white border-0 outline-none font-ui text-sm text-text-primary placeholder:text-text-secondary/60 focus:outline-none focus:ring-4 focus:ring-periwinkle/20 transition-all';
+    'w-full px-4 py-3 rounded-xl bg-white border border-periwinkle/50 outline-none font-ui text-sm text-text-primary placeholder:text-text-secondary/60 focus:outline-none focus:ring-4 focus:ring-periwinkle/20 transition-all';
 
   const labelClass = 'block font-ui text-xs font-semibold text-periwinkle uppercase tracking-widest mb-2';
 
