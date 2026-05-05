@@ -43,7 +43,7 @@ export default function Navbar() {
   };
 
   // Blue background on certain pages or when scrolled past hero
-  const isBlue = pathname.startsWith('/community') || pathname.startsWith('/stores') || (pathname.startsWith('/stories/')) || (scrolled && !pathname.startsWith('/directory'));
+  const isBlue = pathname.startsWith('/community') || pathname.startsWith('/stores') || pathname.startsWith('/stories/') || pathname.startsWith('/directory') || scrolled;
 
   const bg = isBlue
     ? 'bg-periwinkle shadow-sm'
