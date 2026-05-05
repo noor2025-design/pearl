@@ -73,7 +73,7 @@ function ReviewFormSection({
 
         <form onSubmit={handleSubmit} className="space-y-5">
           {/* Section 1 — Store */}
-          <div className="rounded-xl bg-periwinkle px-6 py-5">
+          <div className="rounded-xl bg-white px-6 py-5">
             <div className="flex items-center gap-2.5 mb-5">
               <span className="w-6 h-6 rounded-full bg-periwinkle text-white font-ui font-semibold text-xs flex items-center justify-center shrink-0">1</span>
               <h4 className="font-ui text-sm font-semibold text-periwinkle uppercase tracking-widest">Store or Brand</h4>
@@ -102,7 +102,7 @@ function ReviewFormSection({
           </div>
 
           {/* Section 2 — Review */}
-          <div className="rounded-xl bg-periwinkle px-6 py-5">
+          <div className="rounded-xl bg-white px-6 py-5">
             <div className="flex items-center gap-2.5 mb-5">
               <span className="w-6 h-6 rounded-full bg-periwinkle text-white font-ui font-semibold text-xs flex items-center justify-center shrink-0">2</span>
               <h4 className="font-ui text-sm font-semibold text-periwinkle uppercase tracking-widest">Your Review</h4>
@@ -123,7 +123,7 @@ function ReviewFormSection({
           </div>
 
           {/* Section 3 — Proof */}
-          <div className="rounded-xl bg-periwinkle px-6 py-5">
+          <div className="rounded-xl bg-white px-6 py-5">
             <div className="flex items-center gap-2.5 mb-1">
               <span className="w-6 h-6 rounded-full bg-periwinkle text-white font-ui font-semibold text-xs flex items-center justify-center shrink-0">3</span>
               <h4 className="font-ui text-sm font-semibold text-periwinkle uppercase tracking-widest">Supporting Details</h4>
@@ -151,7 +151,7 @@ function ReviewFormSection({
           </div>
 
           {/* Section 4 — Contact */}
-          <div className="rounded-xl bg-periwinkle px-6 py-5">
+          <div className="rounded-xl bg-white px-6 py-5">
             <div className="flex items-center gap-2.5 mb-5">
               <span className="w-6 h-6 rounded-full bg-periwinkle text-white font-ui font-semibold text-xs flex items-center justify-center shrink-0">4</span>
               <h4 className="font-ui text-sm font-semibold text-periwinkle uppercase tracking-widest">Your Information</h4>
@@ -210,7 +210,7 @@ export default function CommunityPage() {
   }
 
   const inputClass =
-    'w-full px-4 py-3 rounded-xl bg-white border-0 outline-none font-ui text-sm text-text-primary placeholder:text-periwinkle/40 focus:outline-none focus:ring-4 focus:ring-periwinkle/10 transition-all';
+    'w-full px-4 py-3 rounded-xl bg-cream border-0 outline-none font-ui text-sm text-text-primary placeholder:text-text-secondary/60 focus:outline-none focus:ring-4 focus:ring-periwinkle/20 transition-all';
 
   const labelClass = 'block font-ui text-xs font-semibold text-periwinkle uppercase tracking-widest mb-2';
 
@@ -533,7 +533,7 @@ export default function CommunityPage() {
                     </p>
                   </div>
 
-                  <div className="rounded-xl bg-periwinkle px-6 py-5">
+                  <div className="rounded-xl bg-white px-6 py-5">
                     <div className="flex items-start gap-3">
                       <svg className="w-5 h-5 text-periwinkle shrink-0 mt-0.5" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
                         <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" strokeLinecap="round" strokeLinejoin="round" />
