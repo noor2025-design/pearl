@@ -47,17 +47,17 @@ function CheckboxOption({
       <span
         className={`w-5 h-5 rounded-[4px] shrink-0 border-2 transition-colors flex items-center justify-center ${
           checked
-            ? 'bg-cream border-cream'
-            : 'bg-white/20 border-cream/40 group-hover:border-cream'
+            ? 'bg-periwinkle border-periwinkle'
+            : 'bg-white border-periwinkle/40 group-hover:border-periwinkle'
         }`}
       >
         {checked && (
-          <svg className="w-3 h-3 text-periwinkle" fill="none" stroke="currentColor" strokeWidth={3} viewBox="0 0 24 24">
+          <svg className="w-3 h-3 text-white" fill="none" stroke="currentColor" strokeWidth={3} viewBox="0 0 24 24">
             <path d="M5 13l4 4L19 7" strokeLinecap="round" strokeLinejoin="round" />
           </svg>
         )}
       </span>
-      <span className={`font-ui text-sm leading-snug transition-colors ${checked ? 'text-cream font-semibold' : 'text-cream/80 group-hover:text-cream'}`}>
+      <span className={`font-ui text-sm leading-snug transition-colors ${checked ? 'text-periwinkle-dark font-semibold' : 'text-periwinkle-dark/80 group-hover:text-periwinkle-dark'}`}>
         {label}
       </span>
     </button>
@@ -167,16 +167,16 @@ export default function DirectoryClient({ stores, ogImages }: DirectoryClientPro
   const hasFilters = locations.length > 0 || categories.length > 0 || prices.length > 0 || !!search;
 
   return (
-    <div className="min-h-screen bg-periwinkle">
+    <div className="min-h-screen bg-cream">
       {/* Page header */}
       <div className="max-w-screen-xl mx-auto px-6 lg:px-8 pt-6 pb-4">
         <h1
-          className="font-ui text-cream font-semibold mb-3"
+          className="font-ui text-periwinkle-dark font-semibold mb-3"
           style={{ fontSize: 'clamp(2rem, 4vw, 3.5rem)' }}
         >
           Browse Stores
         </h1>
-        <p className="font-ui text-cream/80 text-xl mb-4">
+        <p className="font-ui text-periwinkle-dark text-xl mb-4">
           Discover modest fashion shops organized by location
         </p>
       </div>
@@ -203,7 +203,7 @@ export default function DirectoryClient({ stores, ogImages }: DirectoryClientPro
               onClick={() => setSort(opt.value as 'featured' | 'az' | 'newest')}
               className={`px-4 py-2 rounded-xl font-ui text-sm whitespace-nowrap transition-colors flex items-center justify-center ${
                 sort === opt.value
-                  ? 'bg-white text-periwinkle font-semibold'
+                  ? 'bg-white text-periwinkle-dark font-semibold'
                   : 'text-white hover:bg-white/15'
               }`}
               aria-pressed={sort === opt.value}
@@ -219,22 +219,22 @@ export default function DirectoryClient({ stores, ogImages }: DirectoryClientPro
         {/* Left sidebar */}
         <aside className="w-56 shrink-0">
           <div className="flex items-center justify-between mb-4">
-            <h2 className="font-ui text-cream text-2xl font-semibold">Filters</h2>
+            <h2 className="font-ui text-periwinkle-dark text-2xl font-semibold">Filters</h2>
             {hasFilters && (
               <button
                 onClick={clearAll}
-                className="font-ui text-xs text-cream underline hover:opacity-70 transition-opacity"
+                className="font-ui text-xs text-periwinkle-dark underline hover:opacity-70 transition-opacity"
               >
                 Clear all
               </button>
             )}
           </div>
 
-          <div className="h-px bg-cream/25 mb-4" />
+          <div className="h-px bg-periwinkle/25 mb-4" />
 
           {/* Location */}
           <div className="mb-1">
-            <p className="font-ui font-bold text-cream text-sm mb-3">Location</p>
+            <p className="font-ui font-bold text-periwinkle-dark text-sm mb-3">Location</p>
             <div className="flex flex-col gap-2">
               {LOCATION_FILTERS.map((opt) => (
                 <CheckboxOption
@@ -247,11 +247,11 @@ export default function DirectoryClient({ stores, ogImages }: DirectoryClientPro
             </div>
           </div>
 
-          <div className="h-px bg-cream/25 my-4" />
+          <div className="h-px bg-periwinkle/25 my-4" />
 
           {/* Price Range */}
           <div className="mb-1">
-            <p className="font-ui font-bold text-cream text-sm mb-3">Price Range</p>
+            <p className="font-ui font-bold text-periwinkle-dark text-sm mb-3">Price Range</p>
             <div className="flex flex-col gap-2">
               {PRICE_OPTIONS.map((p) => (
                 <CheckboxOption
@@ -264,11 +264,11 @@ export default function DirectoryClient({ stores, ogImages }: DirectoryClientPro
             </div>
           </div>
 
-          <div className="h-px bg-cream/25 my-4" />
+          <div className="h-px bg-periwinkle/25 my-4" />
 
           {/* Categories */}
           <div>
-            <p className="font-ui font-bold text-cream text-sm mb-3">Categories</p>
+            <p className="font-ui font-bold text-periwinkle-dark text-sm mb-3">Categories</p>
             <div className="flex flex-col gap-2">
               {ALL_CATEGORIES.map((cat) => (
                 <CheckboxOption
@@ -284,7 +284,7 @@ export default function DirectoryClient({ stores, ogImages }: DirectoryClientPro
 
         {/* Store grid */}
         <div className="flex-1 min-w-0">
-          <p className="font-ui text-sm text-cream/70 mb-6">
+          <p className="font-ui text-sm text-text-secondary mb-6">
             {filtered.length} {filtered.length === 1 ? 'store' : 'stores'} found
           </p>
           <StoreGrid stores={filtered} ogImages={ogImages} />
