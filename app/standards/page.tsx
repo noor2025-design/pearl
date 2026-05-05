@@ -76,7 +76,6 @@ export default function StandardsPage() {
               onClick={() => setActive(active === i ? null : i)}
               className="bg-white rounded-2xl overflow-hidden shadow-card hover:shadow-card-hover transition-all duration-300 cursor-pointer"
             >
-              <div className="h-1.5 bg-periwinkle" />
               <div className="px-8 py-8">
                 <div className="flex items-center gap-5">
                   <span className="w-10 h-10 rounded-full bg-periwinkle text-white font-ui text-sm font-bold flex items-center justify-center shrink-0">

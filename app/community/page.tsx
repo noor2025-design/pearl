@@ -46,7 +46,6 @@ function ReviewFormSection({
   if (submitted) {
     return (
       <div className="bg-white rounded-2xl shadow-card overflow-hidden">
-        <div className="h-1.5 bg-gradient-to-r from-periwinkle to-periwinkle-dark" />
         <div className="px-8 py-16 text-center">
           <div className="text-5xl mb-4">✨</div>
           <h3 className="font-ui text-2xl text-periwinkle font-semibold mb-3">Review Submitted</h3>
@@ -212,7 +211,7 @@ export default function CommunityPage() {
   }
 
   const inputClass =
-    'w-full px-4 py-3 rounded-xl bg-white font-ui text-sm text-text-primary placeholder:text-periwinkle/40 focus:outline-none focus:ring-4 focus:ring-periwinkle/10 transition-all';
+    'w-full px-4 py-3 rounded-xl bg-white border-0 outline-none font-ui text-sm text-text-primary placeholder:text-periwinkle/40 focus:outline-none focus:ring-4 focus:ring-periwinkle/10 transition-all';
 
   const labelClass = 'block font-ui text-xs font-semibold text-periwinkle uppercase tracking-widest mb-2';
 
@@ -303,8 +302,7 @@ export default function CommunityPage() {
         {activeTab === 'submit' && (
           <div className="bg-white rounded-2xl shadow-card overflow-hidden">
             {/* Accent bar */}
-            <div className="h-1.5 bg-gradient-to-r from-periwinkle to-periwinkle-dark" />
-
+    
             <div className="px-8 py-10">
               {submitted ? (
                 <div className="text-center py-12">
@@ -499,8 +497,7 @@ export default function CommunityPage() {
           <div className="space-y-6">
             {/* Review guidelines */}
             <div className="bg-white rounded-2xl shadow-card overflow-hidden">
-              <div className="h-1.5 bg-gradient-to-r from-periwinkle to-periwinkle-dark" />
-              <button
+                    <button
                 className="w-full px-8 py-8 flex items-center justify-between gap-4 text-left"
                 onClick={() => setGuidelinesOpen(!guidelinesOpen)}
               >
@@ -569,8 +566,7 @@ export default function CommunityPage() {
 
             {/* Placeholder first review */}
             <div className="bg-white rounded-2xl shadow-card overflow-hidden">
-              <div className="h-1.5 bg-gradient-to-r from-periwinkle to-periwinkle-dark" />
-              <div className="px-8 py-8">
+                    <div className="px-8 py-8">
                 <div className="flex items-center gap-3 mb-5">
                   <p className="font-ui text-xs text-text-secondary uppercase tracking-widest">Community Reviews</p>
                   <span className="px-2 py-0.5 rounded-full bg-cream-dark font-ui text-xs text-text-secondary italic">Example</span>
