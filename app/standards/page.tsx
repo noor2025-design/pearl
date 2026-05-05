@@ -74,7 +74,7 @@ export default function StandardsPage() {
             <div
               key={i}
               onClick={() => setActive(active === i ? null : i)}
-              className="bg-white rounded-2xl overflow-hidden shadow-card border border-periwinkle/20 hover:border-periwinkle/50 hover:shadow-card-hover transition-all duration-300 cursor-pointer"
+              className="bg-white rounded-2xl overflow-hidden shadow-card hover:shadow-card-hover transition-all duration-300 cursor-pointer"
             >
               <div className="h-1.5 bg-periwinkle" />
               <div className="px-8 py-8">
@@ -95,7 +95,7 @@ export default function StandardsPage() {
 
                 {/* Expanded content */}
                 {active === i && (
-                  <div className="mt-6 space-y-4 pl-[60px] border-t border-periwinkle/10 pt-6">
+                  <div className="mt-6 space-y-4 pl-[60px] pt-6">
                     {section.content.map((para, j) => (
                       <p key={j} className="font-ui text-text-primary text-base leading-relaxed">
                         {para}

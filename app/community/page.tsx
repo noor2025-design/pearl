@@ -75,7 +75,7 @@ function ReviewFormSection({
 
         <form onSubmit={handleSubmit} className="space-y-5">
           {/* Section 1 — Store */}
-          <div className="rounded-xl bg-cream border border-periwinkle/20 px-6 py-5">
+          <div className="rounded-xl bg-cream px-6 py-5">
             <div className="flex items-center gap-2.5 mb-5">
               <span className="w-6 h-6 rounded-full bg-periwinkle text-white font-ui font-semibold text-xs flex items-center justify-center shrink-0">1</span>
               <h4 className="font-ui text-sm font-semibold text-periwinkle uppercase tracking-widest">Store or Brand</h4>
@@ -104,7 +104,7 @@ function ReviewFormSection({
           </div>
 
           {/* Section 2 — Review */}
-          <div className="rounded-xl bg-cream border border-periwinkle/20 px-6 py-5">
+          <div className="rounded-xl bg-cream px-6 py-5">
             <div className="flex items-center gap-2.5 mb-5">
               <span className="w-6 h-6 rounded-full bg-periwinkle text-white font-ui font-semibold text-xs flex items-center justify-center shrink-0">2</span>
               <h4 className="font-ui text-sm font-semibold text-periwinkle uppercase tracking-widest">Your Review</h4>
@@ -125,7 +125,7 @@ function ReviewFormSection({
           </div>
 
           {/* Section 3 — Proof */}
-          <div className="rounded-xl bg-cream border border-periwinkle/20 px-6 py-5">
+          <div className="rounded-xl bg-cream px-6 py-5">
             <div className="flex items-center gap-2.5 mb-1">
               <span className="w-6 h-6 rounded-full bg-periwinkle text-white font-ui font-semibold text-xs flex items-center justify-center shrink-0">3</span>
               <h4 className="font-ui text-sm font-semibold text-periwinkle uppercase tracking-widest">Supporting Details</h4>
@@ -134,7 +134,7 @@ function ReviewFormSection({
             <p className="font-ui text-xs text-text-secondary leading-relaxed mb-4 pl-8">
               Supporting details are used for internal review only and never shared publicly. Reviews with supporting details may be noted as a verified experience.
             </p>
-            <label className="flex items-center gap-4 cursor-pointer rounded-lg border border-dashed border-periwinkle/30 bg-white px-5 py-4 hover:border-periwinkle/50 transition-colors">
+            <label className="flex items-center gap-4 cursor-pointer rounded-lg bg-white px-5 py-4 transition-colors">
               <svg className="w-6 h-6 text-periwinkle/50 shrink-0" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
                 <path d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1M16 8l-4-4-4 4M12 4v12" strokeLinecap="round" strokeLinejoin="round" />
               </svg>
@@ -153,7 +153,7 @@ function ReviewFormSection({
           </div>
 
           {/* Section 4 — Contact */}
-          <div className="rounded-xl bg-cream border border-periwinkle/20 px-6 py-5">
+          <div className="rounded-xl bg-cream px-6 py-5">
             <div className="flex items-center gap-2.5 mb-5">
               <span className="w-6 h-6 rounded-full bg-periwinkle text-white font-ui font-semibold text-xs flex items-center justify-center shrink-0">4</span>
               <h4 className="font-ui text-sm font-semibold text-periwinkle uppercase tracking-widest">Your Information</h4>
@@ -212,7 +212,7 @@ export default function CommunityPage() {
   }
 
   const inputClass =
-    'w-full px-4 py-3 rounded-xl border-2 border-periwinkle/30 bg-white font-ui text-sm text-text-primary placeholder:text-periwinkle/40 focus:outline-none focus:border-periwinkle focus:ring-4 focus:ring-periwinkle/10 transition-all';
+    'w-full px-4 py-3 rounded-xl bg-white font-ui text-sm text-text-primary placeholder:text-periwinkle/40 focus:outline-none focus:ring-4 focus:ring-periwinkle/10 transition-all';
 
   const labelClass = 'block font-ui text-xs font-semibold text-periwinkle uppercase tracking-widest mb-2';
 
@@ -269,7 +269,7 @@ export default function CommunityPage() {
       {/* Tabs + Content */}
       <section className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
         {/* Tab bar */}
-        <div className="flex rounded-2xl overflow-hidden border border-cream-dark bg-white shadow-card mb-8">
+        <div className="flex rounded-2xl overflow-hidden bg-white shadow-card mb-8">
           <button
             onClick={() => setActiveTab('submit')}
             className={`flex-1 flex items-center justify-center gap-2 px-6 py-4 font-ui text-sm font-semibold transition-colors ${
@@ -522,7 +522,7 @@ export default function CommunityPage() {
               <div className="px-8 pb-8">
                 {/* Guidelines blocks */}
                 <div className="space-y-5">
-                  <div className="rounded-xl bg-periwinkle/5 border border-periwinkle/15 px-6 py-5">
+                  <div className="rounded-xl bg-periwinkle/5 px-6 py-5">
                     <p className="font-ui text-sm text-text-primary leading-relaxed">
                       Pearl is built on shared experiences, offered thoughtfully and respectfully.
                     </p>
@@ -537,7 +537,7 @@ export default function CommunityPage() {
                     </p>
                   </div>
 
-                  <div className="rounded-xl bg-cream border border-cream-dark px-6 py-5">
+                  <div className="rounded-xl bg-cream px-6 py-5">
                     <div className="flex items-start gap-3">
                       <svg className="w-5 h-5 text-periwinkle shrink-0 mt-0.5" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
                         <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" strokeLinecap="round" strokeLinejoin="round" />
@@ -602,7 +602,7 @@ export default function CommunityPage() {
                   </p>
                 </div>
 
-                <div className="flex items-center gap-2 pt-3 border-t border-cream-dark">
+                <div className="flex items-center gap-2 pt-3">
                   <span className="inline-flex items-center gap-1 px-2.5 py-1 rounded-full text-xs font-semibold font-ui bg-periwinkle text-white">
                     <svg className="w-3 h-3" fill="currentColor" viewBox="0 0 24 24"><path d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"/></svg>
                     Verified Experience
