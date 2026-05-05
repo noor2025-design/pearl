@@ -13,7 +13,7 @@
   --color-text-secondary: #5c5c5c;
 
   --font-display: 'gunter', 'Cinzel', 'Georgia', serif;
-  --font-ui: 'lucida-sans', sans-serif;
+  --font-ui: 'Alexandria', sans-serif;
 
   --text-hero: clamp(2rem, 4vw, 3.75rem);
   --text-display: clamp(2rem, 4vw, 4rem);

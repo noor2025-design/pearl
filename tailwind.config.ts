@@ -19,7 +19,7 @@ const config: Config = {
       },
       fontFamily: {
         display: ["gunter", "Cinzel", "Georgia", "serif"],
-        ui: ["lucida-sans", "var(--font-ui)", "sans-serif"],
+        ui: ["Alexandria", "var(--font-ui)", "sans-serif"],
       },
       borderRadius: {
         card: "1rem",
