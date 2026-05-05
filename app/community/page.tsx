@@ -65,7 +65,6 @@ function ReviewFormSection({
 
   return (
     <div className="bg-white rounded-2xl shadow-card overflow-hidden">
-      <div className="h-1.5 bg-gradient-to-r from-periwinkle to-periwinkle-dark" />
       <div className="px-8 py-10">
         <h3 className="font-ui text-2xl text-text-primary font-semibold mb-2">Submit a Review</h3>
         <p className="font-ui text-text-secondary text-sm leading-relaxed mb-8">
