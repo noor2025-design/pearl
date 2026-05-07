@@ -61,7 +61,7 @@ export default function FeaturedStory() {
             )}
 
             {/* CTA */}
-            <div className="flex flex-wrap items-center gap-3 pt-2">
+            <div className="flex flex-col sm:flex-row sm:items-center gap-3 pt-2">
               <Link
                 href={`/stories/${story.slug}`}
                 className="inline-flex items-center gap-2 px-6 py-3 sm:px-8 sm:py-3.5 bg-periwinkle text-white font-ui font-semibold text-sm rounded-2xl hover:bg-periwinkle-dark transition-colors"
