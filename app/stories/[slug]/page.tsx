@@ -81,6 +81,11 @@ export default function StoryPage({ params }: Props) {
                 Photo: {story.photoCredit}
               </p>
             )}
+            {story.address && (
+              <p className="font-ui text-[11px] text-text-secondary mt-1 text-left">
+                📍 {story.address}
+              </p>
+            )}
           </div>
         </div>
 
