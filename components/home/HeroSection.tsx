@@ -43,22 +43,22 @@ export default function HeroSection() {
 
       <div className="relative max-w-screen-xl mx-auto px-6 lg:px-8 pt-24 md:pt-36 lg:pt-44 pb-14">
         {/* Headline + CTAs */}
-        <div className="max-w-2xl mb-20">
+        <div className="max-w-2xl mb-10 md:mb-20">
           <h1
             id="hero-headline"
-            className="font-display text-hero text-cream leading-tight mb-14 font-semibold"
+            className="font-display text-hero text-cream leading-tight mb-6 md:mb-14 font-semibold"
           >
             Everything you need for Eid, all in one place.
           </h1>
 
-          <p className="font-ui font-bold text-cream/90 text-xl md:text-2xl leading-relaxed mb-10">
+          <p className="font-ui font-bold text-cream/90 text-base md:text-xl lg:text-2xl leading-relaxed mb-6 md:mb-10">
             A curated directory of modest fashion brands for traditional and special occasion wear for muslim women. Find abayas, traditional pieces, and elegant special occasion dresses from trusted shops in the U.S. and abroad.
           </p>
 
-          <div className="flex flex-wrap gap-5 mb-8">
+          <div className="flex flex-wrap gap-4 mb-6 md:mb-8">
             <Link
               href="/directory"
-              className="inline-flex items-center justify-center gap-2 px-10 py-5 border border-cream text-cream font-ui font-bold text-lg rounded-2xl hover:bg-cream hover:text-periwinkle transition-colors w-fit"
+              className="inline-flex items-center justify-center gap-2 px-7 py-4 md:px-10 md:py-5 border border-cream text-cream font-ui font-bold text-base md:text-lg rounded-2xl hover:bg-cream hover:text-periwinkle transition-colors w-fit"
             >
               Browse All Stores
             </Link>
