@@ -1,5 +1,34 @@
 [
   {
+    "id": "veiled-founder",
+    "slug": "veiled-founder",
+    "sourcedFromWebsite": true,
+    "founderName": "Nora Chamaa",
+    "brandName": "Veiled",
+    "brandSlug": "veiled",
+    "title": "Nora Chamaa and the Vision Behind Veiled",
+    "excerpt": "From a deep desire to make modest fashion feel effortless and beautiful — the story of how Nora Chamaa built Veiled into a brand that dresses Muslim women with intention, giving back to communities with every purchase.",
+    "pullQuote": "A brand built on the belief that modest women deserve fashion that is elevated, intentional, and rooted in something greater than style.",
+    "imageUrl": "/veiled-storefront.png",
+    "cardImageUrl": "/veiled-nora-founder.png",
+    "featured": true,
+    "publishedAt": "2024-06-01",
+    "interview": [
+      {
+        "question": "The Brand",
+        "answer": "Veiled was founded by Nora Chamaa with a single, clear conviction — that modest fashion should never feel like a compromise. Growing up as a Muslim woman navigating a fashion industry that rarely considered her, Nora set out to build something different. Veiled is a brand rooted in intentionality, offering elevated modest wear for women who want to look beautiful without sacrificing their values. A portion of every sale goes toward supporting Muslim communities worldwide, making each purchase a small act of contribution."
+      },
+      {
+        "question": "The Store",
+        "answer": "Veiled's flagship store is a physical expression of everything the brand stands for — clean, minimal, and welcoming. Located in New Jersey, the storefront has become a destination for modest fashion lovers in the tri-state area who want to see, feel, and try on pieces in person. The space reflects Nora's design sensibility: understated, refined, and built around the customer experience. Online, Veiled ships across the United States, bringing that same sense of care directly to women's doorsteps."
+      },
+      {
+        "question": "The Mission",
+        "answer": "What sets Veiled apart is not just the clothing — it is the commitment behind it. Nora built Veiled with purpose woven into the business model. A portion of all sales supports Muslim communities worldwide, a value that resonates deeply with her customer base. For Nora, fashion is never just about what you wear — it is about what you stand for. Veiled continues to grow as a brand where style and substance are never in conflict."
+      }
+    ]
+  },
+  {
     "id": "merrachi-founder",
     "slug": "merrachi-founder",
     "sourcedFromWebsite": true,
