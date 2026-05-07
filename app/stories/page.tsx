@@ -58,9 +58,11 @@ export default function StoriesPage() {
                       </p>
                     </div>
                     {/* photo credit */}
-                    <span className="absolute bottom-2 right-3 font-ui text-[10px] text-cream/60">
-                      Photo: @naaddx
-                    </span>
+                    {story.photoCredit && (
+                      <span className="absolute bottom-2 right-3 font-ui text-[10px] text-cream/60">
+                        Photo: {story.photoCredit}
+                      </span>
+                    )}
                   </>
                 ) : (
                   <div className="text-center px-6">
