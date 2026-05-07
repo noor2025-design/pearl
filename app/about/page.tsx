@@ -21,7 +21,7 @@ export default function AboutPage() {
         />
         <div className="absolute inset-0 bg-black/20" aria-hidden="true" />
         <div className="relative max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-28 md:py-40 text-center">
-          <h1 className="font-ui text-5xl md:text-8xl text-cream font-semibold whitespace-nowrap">
+          <h1 className="font-ui text-4xl sm:text-6xl md:text-8xl text-cream font-semibold">
             About Pearl
           </h1>
         </div>

@@ -26,6 +26,7 @@ function LookCard({ look }: { look: Look }) {
       className="relative overflow-hidden bg-neutral-900 cursor-pointer"
       onMouseEnter={() => setOpen(true)}
       onMouseLeave={() => setOpen(false)}
+      onClick={() => setOpen((v) => !v)}
     >
       {/* Image */}
       {look.imageUrl ? (
@@ -107,7 +108,7 @@ function LookCard({ look }: { look: Look }) {
 
 export default function LookbookGrid({ looks }: { looks: Look[] }) {
   return (
-    <div className="grid grid-cols-3 gap-px bg-neutral-700">
+    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-px bg-neutral-700">
       {looks.map((look) => (
         <LookCard key={look.id} look={look} />
       ))}
