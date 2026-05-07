@@ -16,6 +16,7 @@ export interface Story {
   pullQuote: string;
   imageUrl: string;
   cardImageUrl?: string;
+  photoCredit?: string;
   featured: boolean;
   publishedAt: string;
   sourcedFromWebsite?: boolean;

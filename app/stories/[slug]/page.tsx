@@ -76,9 +76,9 @@ export default function StoryPage({ params }: Props) {
                 <div className="w-full h-full bg-cream-dark" />
               )}
             </div>
-            {story.imageUrl && (
+            {story.imageUrl && story.photoCredit && (
               <p className="font-ui text-[11px] text-text-secondary mt-2 text-right">
-                Photo: @naaddx
+                Photo: {story.photoCredit}
               </p>
             )}
           </div>
