@@ -250,7 +250,7 @@ export default function CommunityPage() {
           <h1 className="font-display text-5xl md:text-6xl text-cream mb-10 font-semibold">
             Grow PEARL Together
           </h1>
-          <p className="font-ui text-lg text-cream/80 leading-relaxed max-w-xl mx-auto">
+          <p className="font-ui text-lg text-cream leading-relaxed max-w-xl mx-auto">
             Help us build the most comprehensive directory of modest fashion. Share your favorite stores, explore authentic reviews, and read founder interviews and brand stories in Stories.
           </p>
         </div>
