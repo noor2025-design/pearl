@@ -76,15 +76,11 @@ export default function StoryPage({ params }: Props) {
                 <div className="w-full h-full bg-cream-dark" />
               )}
             </div>
-            {story.imageUrl && story.photoCredit && (
-              <p className="font-ui text-[11px] text-text-secondary mt-2 text-right">
-                Photo: {story.photoCredit}
-              </p>
-            )}
-            {story.address && (
-              <p className="font-ui text-[11px] text-text-secondary mt-1 text-left">
-                {story.address}
-              </p>
+            {(story.photoCredit || story.address) && (
+              <div className="flex items-center justify-between mt-2">
+                <span className="font-ui text-[11px] text-text-secondary">{story.address ?? ''}</span>
+                <span className="font-ui text-[11px] text-text-secondary">{story.photoCredit ? `Photo: ${story.photoCredit}` : ''}</span>
+              </div>
             )}
           </div>
         </div>
