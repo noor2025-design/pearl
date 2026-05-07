@@ -14,6 +14,7 @@ const config: Config = {
         periwinkle: "#8ea7e8",
         "periwinkle-light": "#9fadf3",
         "periwinkle-dark": "#5a7acf",
+        "periwinkle-deeper": "#6878d0",
         "text-primary": "#1a1a1a",
         "text-secondary": "#5c5c5c",
       },

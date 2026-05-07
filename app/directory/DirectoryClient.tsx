@@ -57,7 +57,7 @@ function CheckboxOption({
           </svg>
         )}
       </span>
-      <span className={`font-ui text-sm leading-snug transition-colors ${checked ? 'text-periwinkle-dark font-semibold' : 'text-periwinkle-dark/80 group-hover:text-periwinkle-dark'}`}>
+      <span className={`font-ui text-sm leading-snug transition-colors ${checked ? 'font-semibold' : 'opacity-80 group-hover:opacity-100'}`} style={{ color: '#667FC5' }}>
         {label}
       </span>
     </button>
@@ -171,19 +171,19 @@ export default function DirectoryClient({ stores, ogImages }: DirectoryClientPro
       {/* Page header */}
       <div className="max-w-screen-xl mx-auto px-6 lg:px-8 pt-6 pb-4">
         <h1
-          className="font-ui text-periwinkle-dark font-semibold mb-3"
-          style={{ fontSize: 'clamp(2rem, 4vw, 3.5rem)' }}
+          className="font-ui font-semibold mb-3"
+          style={{ fontSize: 'clamp(2rem, 4vw, 3.5rem)', color: '#667FC5' }}
         >
           Browse Stores
         </h1>
-        <p className="font-ui text-periwinkle-dark text-xl mb-4">
+        <p className="font-ui text-xl mb-4" style={{ color: '#667FC5' }}>
           Discover modest fashion shops organized by location
         </p>
       </div>
 
       {/* Search + Sort */}
       <div className="max-w-screen-xl mx-auto px-6 lg:px-8 mb-8 flex gap-4 items-center">
-        <div className="flex-1 bg-periwinkle-dark rounded-2xl flex items-center gap-4 px-6 py-4">
+        <div className="flex-1 rounded-2xl flex items-center gap-4 px-6 py-4" style={{ backgroundColor: '#667FC5' }}>
           <svg className="w-5 h-5 text-white shrink-0" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
             <circle cx="11" cy="11" r="8" />
             <path d="m21 21-4.35-4.35" strokeLinecap="round" />
@@ -196,16 +196,17 @@ export default function DirectoryClient({ stores, ogImages }: DirectoryClientPro
             className="bg-transparent text-white placeholder-white/70 font-ui text-base outline-none w-full"
           />
         </div>
-        <div className="bg-periwinkle-dark rounded-2xl flex items-center gap-1 px-2 py-2 shrink-0">
+        <div className="rounded-2xl flex items-center gap-1 px-2 py-2 shrink-0" style={{ backgroundColor: '#667FC5' }}>
           {SORT_OPTIONS.map((opt) => (
             <button
               key={opt.value}
               onClick={() => setSort(opt.value as 'featured' | 'az' | 'newest')}
               className={`px-4 py-2 rounded-xl font-ui text-sm whitespace-nowrap transition-colors flex items-center justify-center ${
                 sort === opt.value
-                  ? 'bg-white text-periwinkle-dark font-semibold'
+                  ? 'bg-white font-semibold'
                   : 'text-white hover:bg-white/15'
               }`}
+              style={sort === opt.value ? { color: '#667FC5' } : undefined}
               aria-pressed={sort === opt.value}
             >
               {opt.label}
@@ -219,11 +220,12 @@ export default function DirectoryClient({ stores, ogImages }: DirectoryClientPro
         {/* Left sidebar */}
         <aside className="w-56 shrink-0">
           <div className="flex items-center justify-between mb-4">
-            <h2 className="font-ui text-periwinkle-dark text-2xl font-semibold">Filters</h2>
+            <h2 className="font-ui text-2xl font-semibold" style={{ color: '#667FC5' }}>Filters</h2>
             {hasFilters && (
               <button
                 onClick={clearAll}
-                className="font-ui text-xs text-periwinkle-dark underline hover:opacity-70 transition-opacity"
+                className="font-ui text-xs underline hover:opacity-70 transition-opacity"
+                style={{ color: '#667FC5' }}
               >
                 Clear all
               </button>
@@ -234,7 +236,7 @@ export default function DirectoryClient({ stores, ogImages }: DirectoryClientPro
 
           {/* Location */}
           <div className="mb-1">
-            <p className="font-ui font-bold text-periwinkle-dark text-sm mb-3">Location</p>
+            <p className="font-ui font-bold text-sm mb-3" style={{ color: '#667FC5' }}>Location</p>
             <div className="flex flex-col gap-2">
               {LOCATION_FILTERS.map((opt) => (
                 <CheckboxOption
@@ -251,7 +253,7 @@ export default function DirectoryClient({ stores, ogImages }: DirectoryClientPro
 
           {/* Price Range */}
           <div className="mb-1">
-            <p className="font-ui font-bold text-periwinkle-dark text-sm mb-3">Price Range</p>
+            <p className="font-ui font-bold text-sm mb-3" style={{ color: '#667FC5' }}>Price Range</p>
             <div className="flex flex-col gap-2">
               {PRICE_OPTIONS.map((p) => (
                 <CheckboxOption
@@ -268,7 +270,7 @@ export default function DirectoryClient({ stores, ogImages }: DirectoryClientPro
 
           {/* Categories */}
           <div>
-            <p className="font-ui font-bold text-periwinkle-dark text-sm mb-3">Categories</p>
+            <p className="font-ui font-bold text-sm mb-3" style={{ color: '#667FC5' }}>Categories</p>
             <div className="flex flex-col gap-2">
               {ALL_CATEGORIES.map((cat) => (
                 <CheckboxOption
