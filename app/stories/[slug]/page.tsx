@@ -83,7 +83,7 @@ export default function StoryPage({ params }: Props) {
             )}
             {story.address && (
               <p className="font-ui text-[11px] text-text-secondary mt-1 text-left">
-                📍 {story.address}
+                {story.address}
               </p>
             )}
           </div>
