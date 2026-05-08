@@ -1176,5 +1176,41 @@
     "neighborhood": "International",
     "hours": null,
     "phone": null
+  },
+  {
+    "id": "modest-concept",
+    "name": "Modest Concept",
+    "slug": "modest-concept",
+    "website": "https://modestconceptstore.com/",
+    "description": "Modest Concept is an Australian modest fashion brand offering elegant dresses, abayas, and occasion wear with a modern, feminine aesthetic. Known for flowing silhouettes and rich fabrics, their pieces are ideal for Eid, events, and everyday modest dressing, with international shipping available.",
+    "shortDescription": "Australian modest fashion — elegant dresses and occasion wear with international shipping.",
+    "categories": [
+      "Modest Dresses",
+      "Occasion Wear",
+      "Abayas"
+    ],
+    "locationType": "international",
+    "shipsToUS": true,
+    "priceRange": "$$",
+    "logoUrl": "",
+    "featuredImageUrl": "/modest-concept.png",
+    "featured": false,
+    "featuredOrder": 113,
+    "verified": true,
+    "tags": [
+      "Australia",
+      "modest dresses",
+      "occasion wear",
+      "Eid",
+      "international"
+    ],
+    "social": {
+      "instagram": "https://www.instagram.com/modestconcept.au/",
+      "tiktok": ""
+    },
+    "address": null,
+    "neighborhood": "Australia Based",
+    "hours": null,
+    "phone": null
   }
 ]
