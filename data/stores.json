@@ -809,5 +809,221 @@
     "neighborhood": "Australia Based",
     "hours": null,
     "phone": null
+  },
+  {
+    "id": "mayar-fashion",
+    "name": "Mayar Fashion",
+    "slug": "mayar-fashion",
+    "website": "https://www.mayarfashion.com/",
+    "description": "Mayar Fashion is a Paterson, NJ boutique and online store offering a wide selection of abayas, traditional wear, and occasion pieces. A go-to destination for modest fashion in Northern New Jersey, with U.S. and international shipping available.",
+    "shortDescription": "Paterson, NJ boutique offering abayas, traditional wear, and occasion pieces.",
+    "categories": [
+      "Abayas",
+      "Traditional Wear",
+      "Occasion Wear"
+    ],
+    "locationType": "nj",
+    "shipsToUS": true,
+    "priceRange": "$$",
+    "logoUrl": "",
+    "featuredImageUrl": "",
+    "featured": false,
+    "featuredOrder": 103,
+    "verified": false,
+    "tags": [
+      "local",
+      "New Jersey",
+      "Paterson",
+      "abayas",
+      "traditional wear"
+    ],
+    "social": {
+      "instagram": "https://www.instagram.com/mayarfashionn/",
+      "tiktok": ""
+    },
+    "address": "1135 Main St, Paterson, NJ 07503",
+    "neighborhood": "U.S. Based \u00b7 Paterson, NJ",
+    "hours": "10:30AM\u20139:00PM",
+    "phone": "(973) 278-7119"
+  },
+  {
+    "id": "summer-evenings",
+    "name": "Summer Evenings",
+    "slug": "summer-evenings",
+    "website": "https://www.summerevenings.us/",
+    "description": "Summer Evenings is a U.S.-based online modest fashion brand offering beautifully crafted abayas and modest dresses with a light, feminine aesthetic. Ships to the U.S. and internationally.",
+    "shortDescription": "U.S.-based online modest fashion — abayas and modest dresses.",
+    "categories": [
+      "Abayas",
+      "Modest Dresses",
+      "Occasion Wear"
+    ],
+    "locationType": "online",
+    "shipsToUS": true,
+    "priceRange": "$$",
+    "logoUrl": "",
+    "featuredImageUrl": "/summer-evenings.png",
+    "featured": false,
+    "featuredOrder": 104,
+    "verified": false,
+    "tags": [
+      "abayas",
+      "modest dresses",
+      "online",
+      "Eid"
+    ],
+    "social": {
+      "instagram": "https://www.instagram.com/summereveningsofficial/",
+      "tiktok": "https://www.tiktok.com/@summerevenings"
+    },
+    "address": null,
+    "neighborhood": "U.S. Based \u00b7 Online",
+    "hours": null,
+    "phone": null
+  },
+  {
+    "id": "layaan-collection",
+    "name": "Layaan Collection",
+    "slug": "layaan-collection",
+    "website": "https://layaancollection.com/",
+    "description": "Layaan Collection is a U.S.-based online brand offering elegant occasion wear and modest dresses, including richly detailed gowns and capes perfect for Eid and special events. Ships to the U.S. and internationally.",
+    "shortDescription": "U.S.-based online occasion wear and modest gowns.",
+    "categories": [
+      "Occasion Wear",
+      "Modest Dresses",
+      "Traditional Wear"
+    ],
+    "locationType": "online",
+    "shipsToUS": true,
+    "priceRange": "$$",
+    "logoUrl": "",
+    "featuredImageUrl": "/layaan-collection.png",
+    "featured": false,
+    "featuredOrder": 105,
+    "verified": false,
+    "tags": [
+      "occasion wear",
+      "gowns",
+      "Eid",
+      "online"
+    ],
+    "social": {
+      "instagram": "https://www.instagram.com/layaan.collection/",
+      "tiktok": "https://www.tiktok.com/@layaan.collection"
+    },
+    "address": null,
+    "neighborhood": "U.S. Based \u00b7 Online",
+    "hours": null,
+    "phone": null
+  },
+  {
+    "id": "by-anna",
+    "name": "By Anna",
+    "slug": "by-anna",
+    "website": "https://byaana.com/",
+    "description": "By Anna is a UK-based modest fashion brand specialising in hand-embroidered abayas and traditional pieces. Known for intricate floral embroidery and pearl detailing, each piece is crafted with exceptional care and elegance.",
+    "shortDescription": "UK-based hand-embroidered abayas and traditional modest wear.",
+    "categories": [
+      "Abayas",
+      "Traditional Wear",
+      "Occasion Wear"
+    ],
+    "locationType": "international",
+    "shipsToUS": true,
+    "priceRange": "$$",
+    "logoUrl": "",
+    "featuredImageUrl": "/by-anna.png",
+    "featured": false,
+    "featuredOrder": 106,
+    "verified": false,
+    "tags": [
+      "UK",
+      "abayas",
+      "embroidered",
+      "traditional wear",
+      "international"
+    ],
+    "social": {
+      "instagram": "https://www.instagram.com/by_aana/",
+      "tiktok": ""
+    },
+    "address": null,
+    "neighborhood": "UK Based",
+    "hours": null,
+    "phone": null
+  },
+  {
+    "id": "boutiql",
+    "name": "Boutiql",
+    "slug": "boutiql",
+    "website": "https://boutiq1.co.uk/",
+    "description": "Boutiql is a UK-based premium modest fashion brand offering sophisticated occasion wear and elegant gowns. Designed for the modern modest woman, their pieces blend refined tailoring with a luxurious aesthetic for weddings, Eid, and special occasions.",
+    "shortDescription": "UK-based premium modest occasion wear and elegant gowns.",
+    "categories": [
+      "Occasion Wear",
+      "Modest Dresses",
+      "Traditional Wear"
+    ],
+    "locationType": "international",
+    "shipsToUS": true,
+    "priceRange": "$$$",
+    "logoUrl": "",
+    "featuredImageUrl": "/boutiql.png",
+    "featured": false,
+    "featuredOrder": 107,
+    "verified": false,
+    "tags": [
+      "UK",
+      "occasion wear",
+      "gowns",
+      "premium",
+      "Eid",
+      "international"
+    ],
+    "social": {
+      "instagram": "https://www.instagram.com/boutiq1/",
+      "tiktok": "https://www.tiktok.com/discover/boutiq1"
+    },
+    "address": null,
+    "neighborhood": "UK Based",
+    "hours": null,
+    "phone": null
+  },
+  {
+    "id": "gnl-couture",
+    "name": "GNL Couture",
+    "slug": "gnl-couture",
+    "website": "https://gnlcouture.com/",
+    "description": "GNL Couture is a luxury modest fashion house offering breathtaking couture gowns and occasion wear for the modern modest woman. Known for exquisite craftsmanship, flowing silhouettes, and intricate embellishments crafted for weddings, Eid, and milestone celebrations.",
+    "shortDescription": "Luxury couture gowns and occasion wear for the modern modest woman.",
+    "categories": [
+      "Occasion Wear",
+      "Traditional Wear",
+      "Modest Dresses"
+    ],
+    "locationType": "international",
+    "shipsToUS": true,
+    "priceRange": "$$$",
+    "logoUrl": "",
+    "featuredImageUrl": "/gnl-couture.png",
+    "featured": false,
+    "featuredOrder": 108,
+    "verified": true,
+    "tags": [
+      "luxury",
+      "couture",
+      "occasion wear",
+      "gowns",
+      "Eid",
+      "international"
+    ],
+    "social": {
+      "instagram": "https://www.instagram.com/gnlcouture/",
+      "tiktok": "https://www.tiktok.com/@gnlcouture"
+    },
+    "address": null,
+    "neighborhood": "International",
+    "hours": null,
+    "phone": null
   }
 ]
