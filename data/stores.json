@@ -1063,5 +1063,43 @@
     "neighborhood": "Australia Based",
     "hours": null,
     "phone": null
+  },
+  {
+    "id": "layali-boutique",
+    "name": "Layali Boutique",
+    "slug": "layali-boutique",
+    "website": "https://www.layaliboutique.com/",
+    "description": "Layali Boutique is an Elmwood Park, NJ bridal and occasion wear boutique offering stunning modest gowns, embellished dresses, and couture pieces for weddings, Eid, and special events. Available in-store by appointment or online with U.S. and international shipping.",
+    "shortDescription": "NJ boutique specialising in modest bridal and occasion gowns — in-store and online.",
+    "categories": [
+      "Occasion Wear",
+      "Modest Dresses",
+      "Traditional Wear"
+    ],
+    "locationType": "nj",
+    "shipsToUS": true,
+    "priceRange": "$$$",
+    "logoUrl": "",
+    "featuredImageUrl": "/layali-boutique.png",
+    "featured": false,
+    "featuredOrder": 110,
+    "verified": true,
+    "tags": [
+      "local",
+      "New Jersey",
+      "bridal",
+      "occasion wear",
+      "gowns",
+      "Eid",
+      "by appointment"
+    ],
+    "social": {
+      "instagram": "https://www.instagram.com/layalidressboutique/",
+      "tiktok": ""
+    },
+    "address": "406 US-46, Elmwood Park, NJ 07407",
+    "neighborhood": "U.S. Based \u00b7 Elmwood Park, NJ",
+    "hours": "Sun\u2013Tues & Thurs\u2013Sat 11AM\u20136PM \u00b7 Book by Appointment",
+    "phone": "(201) 735-1800"
   }
 ]
