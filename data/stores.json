@@ -1139,5 +1139,42 @@
     "neighborhood": "UK Based",
     "hours": null,
     "phone": null
+  },
+  {
+    "id": "hayaniq",
+    "name": "Hayaniq",
+    "slug": "hayaniq",
+    "website": "https://www.hayaniq.com/",
+    "description": "Hayaniq is a luxury modest fashion boutique offering breathtaking embellished occasion gowns and dresses. Known for their intricate lace, sequin, and floral embroidery work, their pieces are designed for weddings, Eid, and milestone celebrations with international shipping available.",
+    "shortDescription": "Luxury embellished occasion gowns and modest dresses with international shipping.",
+    "categories": [
+      "Occasion Wear",
+      "Modest Dresses",
+      "Traditional Wear"
+    ],
+    "locationType": "international",
+    "shipsToUS": true,
+    "priceRange": "$$$",
+    "logoUrl": "",
+    "featuredImageUrl": "/hayaniq.png",
+    "featured": false,
+    "featuredOrder": 112,
+    "verified": true,
+    "tags": [
+      "luxury",
+      "occasion wear",
+      "gowns",
+      "embellished",
+      "Eid",
+      "international"
+    ],
+    "social": {
+      "instagram": "https://www.instagram.com/hayaniqboutique/",
+      "tiktok": ""
+    },
+    "address": null,
+    "neighborhood": "International",
+    "hours": null,
+    "phone": null
   }
 ]
