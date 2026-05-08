@@ -1101,5 +1101,43 @@
     "neighborhood": "U.S. Based \u00b7 Elmwood Park, NJ",
     "hours": "Sun\u2013Tues & Thurs\u2013Sat 11AM\u20136PM \u00b7 Book by Appointment",
     "phone": "(201) 735-1800"
+  },
+  {
+    "id": "khanums",
+    "name": "Khanums",
+    "slug": "khanums",
+    "website": "https://khanums.co/",
+    "description": "Khanums is a UK-based luxury modest fashion brand known for their refined, minimalist aesthetic. Their collections feature beautifully tailored modest gowns and dresses with clean lines, delicate pearl detailing, and timeless silhouettes — perfect for Eid, weddings, and special occasions.",
+    "shortDescription": "UK luxury modest fashion — minimalist gowns with refined tailoring.",
+    "categories": [
+      "Occasion Wear",
+      "Modest Dresses",
+      "Abayas"
+    ],
+    "locationType": "international",
+    "shipsToUS": true,
+    "priceRange": "$$$",
+    "logoUrl": "",
+    "featuredImageUrl": "/khanums.png",
+    "featured": false,
+    "featuredOrder": 111,
+    "verified": true,
+    "tags": [
+      "UK",
+      "luxury",
+      "minimalist",
+      "occasion wear",
+      "gowns",
+      "Eid",
+      "international"
+    ],
+    "social": {
+      "instagram": "https://www.instagram.com/khanums/",
+      "tiktok": ""
+    },
+    "address": null,
+    "neighborhood": "UK Based",
+    "hours": null,
+    "phone": null
   }
 ]
