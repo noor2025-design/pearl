@@ -829,7 +829,7 @@
     "featuredImageUrl": "/mayar-fashion.png",
     "featured": false,
     "featuredOrder": 103,
-    "verified": false,
+    "verified": true,
     "tags": [
       "local",
       "New Jersey",
@@ -865,7 +865,7 @@
     "featuredImageUrl": "/summer-evenings.png",
     "featured": false,
     "featuredOrder": 104,
-    "verified": false,
+    "verified": true,
     "tags": [
       "abayas",
       "modest dresses",
@@ -900,7 +900,7 @@
     "featuredImageUrl": "/layaan-collection.png",
     "featured": false,
     "featuredOrder": 105,
-    "verified": false,
+    "verified": true,
     "tags": [
       "occasion wear",
       "gowns",
@@ -935,7 +935,7 @@
     "featuredImageUrl": "/by-anna.png",
     "featured": false,
     "featuredOrder": 106,
-    "verified": false,
+    "verified": true,
     "tags": [
       "UK",
       "abayas",
@@ -971,7 +971,7 @@
     "featuredImageUrl": "/boutiql.png",
     "featured": false,
     "featuredOrder": 107,
-    "verified": false,
+    "verified": true,
     "tags": [
       "UK",
       "occasion wear",
