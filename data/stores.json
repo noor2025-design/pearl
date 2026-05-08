@@ -1025,5 +1025,43 @@
     "neighborhood": "International",
     "hours": null,
     "phone": null
+  },
+  {
+    "id": "siaa-house",
+    "name": "SIAA House",
+    "slug": "siaa-house",
+    "website": "https://www.siaahouse.com/",
+    "description": "SIAA House is an Australian luxury modest fashion brand offering exquisite occasion wear and embellished gowns. Known for their signature floral embroidery, sequin detailing, and flowing silhouettes, each piece is designed for weddings, Eid, and special celebrations.",
+    "shortDescription": "Australian luxury modest occasion wear — embellished gowns and elegant designs.",
+    "categories": [
+      "Occasion Wear",
+      "Modest Dresses",
+      "Traditional Wear"
+    ],
+    "locationType": "international",
+    "shipsToUS": true,
+    "priceRange": "$$$",
+    "logoUrl": "",
+    "featuredImageUrl": "/siaa-house.png",
+    "featured": false,
+    "featuredOrder": 109,
+    "verified": true,
+    "tags": [
+      "Australia",
+      "luxury",
+      "occasion wear",
+      "gowns",
+      "embellished",
+      "Eid",
+      "international"
+    ],
+    "social": {
+      "instagram": "https://www.instagram.com/siaahouse_offical/",
+      "tiktok": "https://www.tiktok.com/@siaahouse"
+    },
+    "address": null,
+    "neighborhood": "Australia Based",
+    "hours": null,
+    "phone": null
   }
 ]
